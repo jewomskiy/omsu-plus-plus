@@ -42,7 +42,7 @@ int main() {
     contForBox.pushBox(third);
     cout << contForBox;
     contForBox.deleteItem(1);
-    cout << contForBox;
+    cout << "-----------" << endl;
     cout << contForBox;
     return 0;
 }

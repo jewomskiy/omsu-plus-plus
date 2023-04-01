@@ -39,23 +39,23 @@ public:
         return this->weight;
     }
 
-    int setLenght(int lenght) {
+    void setLenght(int lenght) {
         this->lenght = lenght;
     }
 
-    int setWidth(int width) {
+    void setWidth(int width) {
         this->width = width;
     }
 
-    int setHeight(int height) {
+    void setHeight(int height) {
         this->height = height;
     }
 
-    int setValue(int value) {
+    void setValue(int value) {
         this->value = value;
     }
 
-    double setWeight(double weight) {
+    void setWeight(double weight) {
         this->weight = weight;
     }
 

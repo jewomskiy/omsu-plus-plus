@@ -73,7 +73,7 @@ public:
 
 //    После метода не выводятся коробки
 
-    int deleteItem(int index){
+    void deleteItem(int index){
         auto iter = this->ArrayOfBoxes.cbegin();
         cout << getSize();
         this->ArrayOfBoxes.erase(iter + index);
